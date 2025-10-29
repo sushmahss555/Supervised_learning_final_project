@@ -80,12 +80,18 @@ It also provided a good balance of accuracy and interpretability compared to oth
 
 ---
 
-## Future Improvements
+## Creating submission file 
 
-* Perform hyperparameter tuning for better accuracy
-* Apply feature selection to reduce dimensionality
-* Explore ensemble methods combining Random Forest and XGBoost
-* Consider deep learning approaches for higher generalization
+ * Setting the best model as RandomForest Classigier .
+ * Data processing on df_test
+ * Predict df_test data and create submission.csv file
+
+---
+
+## Predicting ASD cases 
+
+* predict_autism_screening function process the user_data and predict the person has ASD or non ASD .
+* In the below data we are able to test both ASD and Non ASD cases .
 
 ---
 
